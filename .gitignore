@@ -1,2 +1,14 @@
+# Generated synthetic data
+logs/
+
+# Generated charts
+charts/
+
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/

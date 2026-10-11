@@ -1,2 +1,3 @@
-scikit-learn>=1.3
-numpy>=1.24
+# Core detection logic (scout.py, generate_logs.py) has zero dependencies.
+# matplotlib is optional — only needed for `python scout.py logs/app.log --chart`
+matplotlib>=3.8
